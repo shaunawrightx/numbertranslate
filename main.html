@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letter-Number Converter</title>
+</head>
+<body>
+    <h1>letter-number converter</h1>
+    
+    <textarea id="inputText" rows="5" cols="50" placeholder="text here..."></textarea>
+<br>
+<button id="toggleButton" class="button">switch to numbers → Letters</button>
+<button id="translateButton" class="button">translate</button>
+<button id="clear" class="button">CLEAR</button>
+<br><br>
+<textarea id="outputText" rows="5" cols="50" placeholder="..." readonly></textarea>
+
+    <script src="home.js"></script>
+</body>
+
+<style>
+    body {
+        background-color: lightyellow;
+    }
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.button {
+background-color: darkred;
+  border: none;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover{
+    background-color: maroon;
+}
+
+</style>
+</html>
